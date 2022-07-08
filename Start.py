@@ -2,7 +2,7 @@ import modul
 import os
 import logo
 
-
+logo.logos.main_logo()
 list = [
     "0", #00
     "1", #01

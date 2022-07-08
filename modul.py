@@ -1,8 +1,10 @@
 import time
 import os
+import logo
 
 class accounts:
     def acc():
+        logo.logos.main_accounts()
         #Settings page	URI
         #Access work or school	ms-settings:workplace
         #Email & app accounts	ms-settings:emailandaccounts
@@ -46,6 +48,7 @@ class accounts:
             import Start
 
     def app():
+        logo.logos.main_apps()
         #Settings page	URI
         #Apps & Features	ms-settings:appsfeatures
         #App features	ms-settings:appsfeatures-app (Reset, manage add-on & downloadable content, etc. for the app)
@@ -96,6 +99,7 @@ class accounts:
             import Start
         
     def cort():
+        logo.logos.main_cortana()
         #Settings page	URI
         #Cortana across my devices	ms-settings:cortana-notifications
         #More details	ms-settings:cortana-moredetails
@@ -131,6 +135,7 @@ class accounts:
             import Start
 
     def devi():
+        logo.logos.main_devices()
         #Settings page	URI
         #AutoPlay	ms-settings:autoplay
         #Bluetooth	ms-settings:bluetooth
@@ -216,6 +221,7 @@ class accounts:
             import Start
 
     def ease():
+        logo.logos.main_ease()
         #Settings page	URI
         #Audio	ms-settings:easeofaccess-audio
         #Closed captions	ms-settings:easeofaccess-closedcaptioning
@@ -306,6 +312,7 @@ class accounts:
             import Start
      
     def extr():
+        logo.logos.main_extr()
         #Extras
         #Settings page	URI
         #Extras	ms-settings:extras (only available if "settings apps" are installed, for example, by a 3rd party)
@@ -322,6 +329,7 @@ class accounts:
             import Start
         
     def game():
+        logo.logos.main_game()
         #Gaming
         #Settings page	URI
         #Game bar	ms-settings:gaming-gamebar
@@ -358,6 +366,7 @@ class accounts:
             import Start
 
     def home():
+        logo.logos.main_logo()
         #Home page
         #Settings page	URI
         #Default browser settings	ms-settings:defaultbrowsersettings
@@ -379,6 +388,7 @@ class accounts:
             import Start
 
     def netw():
+        logo.logos.main_netw()
         #Network and internet
         #Settings page	URI
         #Advanced settings	ms-settings:network-advancedsettings
