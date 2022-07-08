@@ -34,9 +34,6 @@ Searching Windows	ms-settings:cortana-windowssearch
 Talk to Cortana	ms-settings:cortana-language
 ms-settings:cortana
 ms-settings:cortana-talktocortana
- Note
-
-This Settings section on desktop will be called Search when the PC is set to regions where Cortana is not currently available or Cortana has been disabled. Cortana-specific pages (Cortana across my devices, and Talk to Cortana) will not be listed in this case.
 
 Devices
 Settings page	URI
