@@ -70,14 +70,12 @@ if accsettings == list[3]:
 
 if accsettings == list[4]:
         modul.accounts.ease()
-        exit
 
 if accsettings == list[5]:
-        print("05")
-        exit
+        modul.accounts.extr()
         
 if accsettings == list[6]:
-        print("06")
+        modul.accounts.game()
 
 if accsettings == list[7]:
         print("07")
