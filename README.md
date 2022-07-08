@@ -1,4 +1,5 @@
 * [ x ]: Accounts Settings page
+
        * [00]: Access work or school
        * [01]: Email & app accounts
        * [02]: Family & other people
@@ -7,7 +8,9 @@
        * [05]: Sync your settings
        * [06]: Windows Hello setup
        * [07]: Your info
+
 * [ x ]: Apps Settings page
+
        * [00]: Apps & Features
        * [01]: App features
        * [02]: Apps for websites
@@ -16,13 +19,17 @@
        * [05]: Offline Maps
        * [06]: Startup apps
        * [07]: Video playback
+
 * [ x ]: Cortana Settings page
+
        * [00]: Cortana across my devices
        * [01]: More details
        * [02]: Permissions & History
        * [03]: Searching Windows
        * [04]: Talk to Cortana
+
 * [ x ]: Devices Settings page
+
        * [00]: AutoPlay
        * [01]: Bluetooth
        * [02]: Connected Devices
@@ -38,7 +45,9 @@
        * [12]: USB
        * [13]: Wheel
        * [14]: Your phone
+
 * [ x ]: Ease of access Settings page
+
        * [00]: Audio
        * [01]: Closed captions
        * [02]: Color filters
@@ -55,6 +64,7 @@
        * [13]: Speech
        * [14]: Text cursor
        * [15]: Visual Effects
+       
 [   ]: Extras Settings page
 
 [   ]: Gaming Settings page
