@@ -69,7 +69,7 @@ if accsettings == list[3]:
         modul.accounts.devi()
 
 if accsettings == list[4]:
-        print("04")
+        modul.accounts.ease()
         exit
 
 if accsettings == list[5]:
