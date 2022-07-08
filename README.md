@@ -77,7 +77,7 @@
        * [03]: Playing a game full screen
        * [04]: TruePlay
 
-[ x ]: Home page Settings page
+* [ x ]: Home page Settings page
 
        * [00]: Default browser 
        * [01]: Audio and speech
@@ -86,7 +86,7 @@
        * [04]: Uninstall	
        * [05]: Startup and desktop
 
-[ x ]: Network and internet Settings page
+* [ x ]: Network and internet Settings page
 
        * [00]: Advanced settings
        * [01]: Airplane mode	
