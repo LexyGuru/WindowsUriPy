@@ -1,8 +1,10 @@
 import time
 import os
+import logo
 
 class accounts:
     def acc():
+        logo.logos.main_accounts()
         #Settings page	URI
         #Access work or school	ms-settings:workplace
         #Email & app accounts	ms-settings:emailandaccounts
@@ -46,6 +48,7 @@ class accounts:
             import Start
 
     def app():
+        logo.logos.main_apps()
         #Settings page	URI
         #Apps & Features	ms-settings:appsfeatures
         #App features	ms-settings:appsfeatures-app (Reset, manage add-on & downloadable content, etc. for the app)
@@ -96,6 +99,7 @@ class accounts:
             import Start
         
     def cort():
+        logo.logos.main_cortana()
         #Settings page	URI
         #Cortana across my devices	ms-settings:cortana-notifications
         #More details	ms-settings:cortana-moredetails
@@ -131,6 +135,7 @@ class accounts:
             import Start
 
     def devi():
+        logo.logos.main_devices()
         #Settings page	URI
         #AutoPlay	ms-settings:autoplay
         #Bluetooth	ms-settings:bluetooth
@@ -216,6 +221,7 @@ class accounts:
             import Start
 
     def ease():
+        logo.logos.main_ease()
         #Settings page	URI
         #Audio	ms-settings:easeofaccess-audio
         #Closed captions	ms-settings:easeofaccess-closedcaptioning
@@ -304,9 +310,9 @@ class accounts:
         if accsettings == easee[15]:
             os.system("start " + accsettings)
             import Start
-
-        
+     
     def extr():
+        logo.logos.main_extr()
         #Extras
         #Settings page	URI
         #Extras	ms-settings:extras (only available if "settings apps" are installed, for example, by a 3rd party)
@@ -322,8 +328,8 @@ class accounts:
             os.system("start " + accsettings)
             import Start
         
-
     def game():
+        logo.logos.main_game()
         #Gaming
         #Settings page	URI
         #Game bar	ms-settings:gaming-gamebar
@@ -359,9 +365,8 @@ class accounts:
             os.system("start " + accsettings)
             import Start
 
-        
-
     def home():
+        logo.logos.main_logo()
         #Home page
         #Settings page	URI
         #Default browser settings	ms-settings:defaultbrowsersettings
@@ -381,3 +386,104 @@ class accounts:
         if accsettings == home[0]:
             os.system("start " + accsettings)
             import Start
+
+    def netw():
+        logo.logos.main_netw()
+        #Network and internet
+        #Settings page	URI
+        #Advanced settings	ms-settings:network-advancedsettings
+        #Airplane mode	ms-settings:network-airplanemode
+        #ms-settings:proximity
+        #Cellular & SIM	ms-settings:network-cellular
+        #Dial-up	ms-settings:network-dialup
+        #DirectAccess	ms-settings:network-directaccess (only available if DirectAccess is enabled)
+        #Ethernet	ms-settings:network-ethernet
+        #Manage known networks	ms-settings:network-wifisettings
+        #Mobile hotspot	ms-settings:network-mobilehotspot
+        #Proxy	ms-settings:network-proxy
+        #VPN	ms-settings:network-vpn
+        #Wi-Fi	ms-settings:network-wifi (only available if the device has a wifi adapter)
+        #Wi-Fi provisioning	ms-settings:wifi-provisioning
+
+        network = [
+            "ms-settings:network-advancedsettings",
+            "ms-settings:network-airplanemode #ms-settings:proximity",
+            "ms-settings:network-cellular",
+            "ms-settings:network-dialup",
+            "ms-settings:network-directaccess", #(only available if DirectAccess is enabled)
+            "ms-settings:network-ethernet",
+            "ms-settings:network-wifisettings",
+            "ms-settings:network-mobilehotspot",
+            "ms-settings:network-proxy",
+            "ms-settings:network-vpn",
+            "ms-settings:network-wifi", #(only available if the device has a wifi adapter)
+            "ms-settings:wifi-provisioning"
+            ]
+        a = [
+            "[00]: Advanced settings",
+            "[01]: Airplane mode",
+            "[02]: Cellular & SIM",	
+            "[03]: Dial-up",
+            "[04]: DirectAccess",
+            "[05]: Ethernet",
+            "[06]: Manage known networks",
+            "[07]: Mobile hotspot",
+            "[08]: Proxy",
+            "[09]: VPN",
+            "[10]: Wi-Fi",
+            "[11]: Wi-Fi provisioning"
+            ]
+
+        print(*a, sep = "\n" )
+        print("\n")
+
+        accsettings = network[int(input("Enter a Number: "))]
+
+        if accsettings == network[0]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[1]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[2]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[3]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[4]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[5]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[6]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[7]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[8]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[9]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[10]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[11]:
+            os.system("start " + accsettings)
+            import Start
+        

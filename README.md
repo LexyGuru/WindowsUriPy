@@ -65,11 +65,11 @@
        * [14]: Text cursor
        * [15]: Visual Effects
 
-[ x ]: Extras Settings page
+* [ x ]: Extras Settings page
 
        * [00]: Extras
 
-[ x ]: Gaming Settings page
+* [ x ]: Gaming Settings page
 
        * [00]: Game bar
        * [01]: Game DVR
@@ -77,9 +77,29 @@
        * [03]: Playing a game full screen
        * [04]: TruePlay
 
-[   ]: Home page Settings page
+[ x ]: Home page Settings page
 
-[   ]: Network and internet Settings page
+       * [00]: Default browser 
+       * [01]: Audio and speech
+       * [02]: Environment	
+       * [03]: Headset display	
+       * [04]: Uninstall	
+       * [05]: Startup and desktop
+
+[ x ]: Network and internet Settings page
+
+       * [00]: Advanced settings
+       * [01]: Airplane mode	
+       * [02]: Cellular & SIM
+       * [03]: Dial-up
+       * [04]: DirectAccess
+       * [05]: Ethernet
+       * [06]: Manage known networks
+       * [07]: Mobile hotspot
+       * [08]: Proxy
+       * [09]: VPN
+       * [10]: Wi-Fi
+       * [11]: Wi-Fi provisioning
 
 [   ]: Personalization Settings page
 

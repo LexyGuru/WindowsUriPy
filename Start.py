@@ -2,7 +2,7 @@ import modul
 import os
 import logo
 
-
+logo.logos.main_logo()
 list = [
     "0", #00
     "1", #01
@@ -26,7 +26,7 @@ list = [
     "19",
     "20"
     ]
-
+print("------------------------------------------")
 a = [
     "[00]: Accounts Settings page",
     "[01]: Apps Settings page",
@@ -48,8 +48,8 @@ a = [
     "[17]: Family Group Settings page",
     "[18]: Search Settings page",
     "------------------------------------------",
-    "20 Exit"
-    ]
+    "[20]: Exit"
+]
 
 print(*a, sep = "\n" )
 print("\n")
@@ -70,22 +70,18 @@ if accsettings == list[3]:
 
 if accsettings == list[4]:
         modul.accounts.ease()
-        exit
 
 if accsettings == list[5]:
-        print("05")
-        exit
+        modul.accounts.extr()
         
 if accsettings == list[6]:
-        print("06")
+        modul.accounts.game()
 
 if accsettings == list[7]:
-        print("07")
-        exit
+        modul.accounts.home()
         
 if accsettings == list[8]:
-        print("08")
-        exit
+        modul.accounts.netw()
         
 if accsettings == list[9]:
         print("09")
@@ -128,7 +124,7 @@ if accsettings == list[18]:
         exit
 
 if accsettings == list[19]:
-        print("11111")
+        exit
 
 if accsettings == list[20]:
         exit
