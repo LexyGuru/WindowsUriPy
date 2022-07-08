@@ -304,8 +304,7 @@ class accounts:
         if accsettings == easee[15]:
             os.system("start " + accsettings)
             import Start
-
-        
+     
     def extr():
         #Extras
         #Settings page	URI
@@ -322,7 +321,6 @@ class accounts:
             os.system("start " + accsettings)
             import Start
         
-
     def game():
         #Gaming
         #Settings page	URI
@@ -359,8 +357,6 @@ class accounts:
             os.system("start " + accsettings)
             import Start
 
-        
-
     def home():
         #Home page
         #Settings page	URI
@@ -381,3 +377,103 @@ class accounts:
         if accsettings == home[0]:
             os.system("start " + accsettings)
             import Start
+
+    def netw():
+        #Network and internet
+        #Settings page	URI
+        #Advanced settings	ms-settings:network-advancedsettings
+        #Airplane mode	ms-settings:network-airplanemode
+        #ms-settings:proximity
+        #Cellular & SIM	ms-settings:network-cellular
+        #Dial-up	ms-settings:network-dialup
+        #DirectAccess	ms-settings:network-directaccess (only available if DirectAccess is enabled)
+        #Ethernet	ms-settings:network-ethernet
+        #Manage known networks	ms-settings:network-wifisettings
+        #Mobile hotspot	ms-settings:network-mobilehotspot
+        #Proxy	ms-settings:network-proxy
+        #VPN	ms-settings:network-vpn
+        #Wi-Fi	ms-settings:network-wifi (only available if the device has a wifi adapter)
+        #Wi-Fi provisioning	ms-settings:wifi-provisioning
+
+        network = [
+            "ms-settings:network-advancedsettings",
+            "ms-settings:network-airplanemode #ms-settings:proximity",
+            "ms-settings:network-cellular",
+            "ms-settings:network-dialup",
+            "ms-settings:network-directaccess", #(only available if DirectAccess is enabled)
+            "ms-settings:network-ethernet",
+            "ms-settings:network-wifisettings",
+            "ms-settings:network-mobilehotspot",
+            "ms-settings:network-proxy",
+            "ms-settings:network-vpn",
+            "ms-settings:network-wifi", #(only available if the device has a wifi adapter)
+            "ms-settings:wifi-provisioning"
+            ]
+        a = [
+            "[00]: Advanced settings",
+            "[01]: Airplane mode",
+            "[02]: Cellular & SIM",	
+            "[03]: Dial-up",
+            "[04]: DirectAccess",
+            "[05]: Ethernet",
+            "[06]: Manage known networks",
+            "[07]: Mobile hotspot",
+            "[08]: Proxy",
+            "[09]: VPN",
+            "[10]: Wi-Fi",
+            "[11]: Wi-Fi provisioning"
+            ]
+
+        print(*a, sep = "\n" )
+        print("\n")
+
+        accsettings = network[int(input("Enter a Number: "))]
+
+        if accsettings == network[0]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[1]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[2]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[3]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[4]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[5]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[6]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[7]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[8]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[9]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[10]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == network[11]:
+            os.system("start " + accsettings)
+            import Start
+        
