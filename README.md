@@ -64,10 +64,18 @@
        * [13]: Speech
        * [14]: Text cursor
        * [15]: Visual Effects
-       
-[   ]: Extras Settings page
 
-[   ]: Gaming Settings page
+[ x ]: Extras Settings page
+
+       * [00]: Extras
+
+[ x ]: Gaming Settings page
+
+       * [00]: Game bar
+       * [01]: Game DVR
+       * [02]: Game Mode
+       * [03]: Playing a game full screen
+       * [04]: TruePlay
 
 [   ]: Home page Settings page
 
