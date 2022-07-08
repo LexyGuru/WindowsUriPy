@@ -34,9 +34,6 @@ Searching Windows	ms-settings:cortana-windowssearch
 Talk to Cortana	ms-settings:cortana-language
 ms-settings:cortana
 ms-settings:cortana-talktocortana
- Note
-
-This Settings section on desktop will be called Search when the PC is set to regions where Cortana is not currently available or Cortana has been disabled. Cortana-specific pages (Cortana across my devices, and Talk to Cortana) will not be listed in this case.
 
 Devices
 Settings page	URI
@@ -92,12 +89,6 @@ TruePlay	ms-settings:gaming-trueplay (As of Windows 10, version 1809 (10.0; Buil
 Home page
 Settings page	URI
 Default browser settings	ms-settings:defaultbrowsersettings
-Mixed reality
- Note
-
-These settings are only available if the Mixed Reality Portal app is installed.
-
-Settings page	URI
 Audio and speech	ms-settings:holographic-audio
 Environment	ms-settings:privacy-holographic-environment
 Headset display	ms-settings:holographic-headset
@@ -284,8 +275,8 @@ Control center	ms-settings:controlcenter
 Family Group
 Settings page	URI
 Family Group	ms-settings:family-group
-Search
 
+Search
 Settings page	URI
 Search	ms-settings:search
 Search more details	ms-settings:search-moredetails
