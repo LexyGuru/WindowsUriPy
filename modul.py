@@ -219,3 +219,96 @@ class accounts:
         if accsettings == devices[14]:
             os.system("start " + accsettings)
             import Start
+
+    def ease():
+        #Settings page	URI
+        #Audio	ms-settings:easeofaccess-audio
+        #Closed captions	ms-settings:easeofaccess-closedcaptioning
+        #Color filters	ms-settings:easeofaccess-colorfilter
+        #ms-settings:easeofaccess-colorfilter-adaptivecolorlink
+        #ms-settings:easeofaccess-colorfilter-bluelightlink
+        #Display	ms-settings:easeofaccess-display
+        #Eye control	ms-settings:easeofaccess-eyecontrol
+        #Fonts	ms-settings:fonts
+        #High contrast	ms-settings:easeofaccess-highcontrast
+        #Keyboard	ms-settings:easeofaccess-keyboard
+        #Magnifier	ms-settings:easeofaccess-magnifier
+        #Mouse	ms-settings:easeofaccess-mouse
+        #Mouse pointer & touch	ms-settings:easeofaccess-mousepointer
+        #Narrator	ms-settings:easeofaccess-narrator
+        #ms-settings:easeofaccess-narrator-isautostartenabled
+        #Speech	ms-settings:easeofaccess-speechrecognition
+        #Text cursor	ms-settings:easeofaccess-cursor
+        #Visual Effects	ms-settings:easeofaccess-visualeffects
+        easee = ["ms-settings:easeofaccess-audio", "ms-settings:easeofaccess-closedcaptioning", "ms-settings:easeofaccess-colorfilter", "ms-settings:easeofaccess-display", "ms-settings:easeofaccess-eyecontrol", "ms-settings:fonts", "ms-settings:easeofaccess-highcontrast", "ms-settings:easeofaccess-keyboard", "ms-settings:easeofaccess-magnifier", "ms-settings:easeofaccess-mouse", "ms-settings:easeofaccess-mousepointer", "ms-settings:easeofaccess-narrator", "ms-settings:easeofaccess-speechrecognition", "ms-settings:easeofaccess-cursor", "ms-settings:easeofaccess-visualeffects"]
+        a = ["[00]: Audio", "[01]: Closed captions", "[02]: Color filters", "[03]: Default camera", "[04]: Display", "[05]: Eye control", "[06]: Fonts", "[07]: High contrast", "[08]: Keyboard", "[09]: Magnifier", "[10]: Mouse", "[11]: Mouse pointer & touch", "[12]: Narrator", "[13]: Speech", "[14]: Text cursor", "[15]: Visual Effects"]
+        print(*a, sep = "\n" )
+        print("\n")
+
+        accsettings = easee[int(input("Enter a Number: "))]
+
+        if accsettings == easee[0]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[1]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[2]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[3]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[4]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[5]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[6]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[7]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[8]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[9]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[10]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[11]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[12]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[13]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[14]:
+            os.system("start " + accsettings)
+            import Start
+        
+        if accsettings == easee[15]:
+            os.system("start " + accsettings)
+            import Start
+
+        
