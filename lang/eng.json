@@ -41,5 +41,16 @@
         "[ 5]: Sync your settings",
         "[ 6]: Windows Hello setup",
         "[ 7]: Your info"
+    ],
+
+    "apps": [
+        "[ 0]: Apps & Features",
+        "[ 1]: Apps for websites",
+        "[ 2]: Default apps",
+        "[ 3]: Manage optional features",
+        "[ 4]: Offline Maps",
+        "[ 5]: Startup apps",
+        "[ 6]: Video playback"
     ]
 }
+

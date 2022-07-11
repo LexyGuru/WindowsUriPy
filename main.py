@@ -43,8 +43,9 @@ class starter():
             modul.winmod.accs()
 
         if main_lista == list[1]:
-            print("1")
-            starter.start()
+            os.system('cls')
+            logo.logos.main_logo()
+            modul.winmod.app()
 
         if main_lista == list[2]:
             print("2")
@@ -123,3 +124,4 @@ class starter():
             exit
 
 starter.start()
+

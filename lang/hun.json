@@ -33,7 +33,7 @@
          "[20]: Kilépés"
     ],
 
-      "acc": [
+    "acc": [
         "[ 0]: Hozzáférés munkahelyi vagy iskolai renszerhez",
         "[ 1]: E-mail és fiókok",
         "[ 2]: Családtagok es más felhsználók",
@@ -42,5 +42,17 @@
         "[ 5]: Beállítások szinkronizálása",
         "[ 6]: Windows Hello beállítása",
         "[ 7]: Az Ön adatai"
+    ],
+
+    "apps": [
+        "[ 0]: Alkalmazások és szolgáltatások",
+        "[ 1]: Alkalmazások és webhelyekhez",
+        "[ 2]: Alapértelmezett alkalmazások",
+        "[ 3]: Választahó funkciók",
+        "[ 4]: Offline térképek",
+        "[ 5]: Inditópult",
+        "[ 6]: Videolejátszás"
     ]
 }
+
+
