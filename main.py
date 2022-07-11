@@ -115,9 +115,11 @@ class starter():
             starter.start()
 
         if main_lista == list[19]:
+            print("")
             exit
 
         if main_lista == list[20]:
+            print("")
             exit
 
 starter.start()
