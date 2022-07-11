@@ -9,7 +9,7 @@
        * [06]: Windows Hello setup
        * [07]: Your info
 
-* [   ]: Apps Settings page
+* [ x ]: Apps Settings page
 
        * [00]: Apps & Features
        * [01]: App features
