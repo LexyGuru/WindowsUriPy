@@ -1,0 +1,46 @@
+{
+    "main":[
+        "Üdvözöljük a WindowsURIpy alkalmazásban",
+        "Vissza",
+        "Tovább",
+        "Mehet",
+        "Mégse",
+        "Kilépés",
+        "Adjon meg egy számot:"
+    ],
+
+    "main_list":[
+         "[ 0]: Fiókbeállítások",
+         "[ 1]: Alkalmazásbeállítások",
+         "[ 2]: Cortana beállítások",
+         "[ 3]: Eszközbeállítások",
+         "[ 4]: Könnyű hozzáférés beállításai",
+         "[ 5]: Extrák",
+         "[ 6]: Játék beállítások",
+         "[ 7]: Kezdőlap beállításai",
+         "[ 8]: Hálózati és internetbeállítások",
+         "[ 9]: Testreszabás beállításai",
+         "[10]: Telefonbeállítások",
+         "[11]: Adatvédelmi beállítások",
+         "[12]: Surface Hub beállítási",
+         "[13]: Rendszerbeállítások",
+         "[14]: Frissítési és biztonsági beállítások",
+         "[15]: Felhasználói fiókok beállítási",
+         "[16]: Vezérlőközpont beállítási",
+         "[17]: Családi csoport beállítási",
+         "[18]: Keresési beállítások",
+         "------------------------------------------",
+         "[20]: Kilépés"
+    ],
+
+      "acc": [
+        "[ 0]: Hozzáférés munkahelyi vagy iskolai renszerhez",
+        "[ 1]: E-mail és fiókok",
+        "[ 2]: Családtagok es más felhsználók",
+        "[ 3]: Kioszk beállítások",
+        "[ 4]: Bejelentkezési lehetőségek",
+        "[ 5]: Beállítások szinkronizálása",
+        "[ 6]: Windows Hello beállítása",
+        "[ 7]: Az Ön adatai"
+    ]
+}

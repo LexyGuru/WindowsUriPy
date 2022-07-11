@@ -1,0 +1,45 @@
+{
+    "main":[
+        "Welcome a WindowsURIpy apps",
+        "Back",
+        "Next",
+        "GO",
+        "Cancel",
+        "Exit",
+        "Enter a Number:"
+    ],
+    "main_list":[
+        "[ 0]: Accounts Settings page",
+        "[ 1]: Apps Settings page",
+        "[ 2]: Cortana Settings page",
+        "[ 3]: Devices Settings page",
+        "[ 4]: Ease of access Settings page",
+        "[ 5]: Extras Settings page",
+        "[ 6]: Gaming Settings page",
+        "[ 7]: Home page Settings page",
+        "[ 8]: Network and internet Settings page",
+        "[ 9]: Personalization Settings page",
+        "[10]: Phone Settings page",
+        "[11]: Privacy Settings page",
+        "[12]: Surface Hub Settings page",
+        "[13]: System Settings page",
+        "[14]: Update and security Settings page",
+        "[15]: User accounts Settings page",
+        "[16]: Control Center Settings page",
+        "[17]: Family Group Settings page",
+        "[18]: Search Settings page",
+        "------------------------------------------",
+        "[20]: Exit"
+    ],
+
+    "acc": [
+        "[ 0]: Access work or school",
+        "[ 1]: Email & app accounts",
+        "[ 2]: Family & other people",
+        "[ 3]: Set up a kiosk",
+        "[ 4]: Sign-in options",
+        "[ 5]: Sync your settings",
+        "[ 6]: Windows Hello setup",
+        "[ 7]: Your info"
+    ]
+}
