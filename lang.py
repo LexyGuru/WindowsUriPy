@@ -1,6 +1,5 @@
 import json
 import codecs
-import os
 
 hun = "lang/hun.json"
 eng = "lang/eng.json"
@@ -25,9 +24,3 @@ with open(lang, encoding='utf-8-sig') as f:
 lang = langs['main_list']
 acc = langs['acc']
 app = langs['apps']
-
-
-#print(langs['main'][6])
-
-
-

@@ -1,11 +1,9 @@
 import os
 import lang
-import logo
 
 
-
-class winmod():
-    def accs():
+class win_mods:
+    def accs(self):
         accs = [
             "ms-settings:workplace",
             "ms-settings:emailandaccounts",
@@ -25,55 +23,29 @@ class winmod():
 
         if accs_lista == accs[0]:
             os.system("start " + accs_lista)
-            import main
-            main.starter.start()
 
         if accs_lista == accs[1]:
             os.system("start " + accs_lista)
-            import main
-            main.starter.start()
 
         if accs_lista == accs[2]:
             os.system("start " + accs_lista)
-            import main
-            main.starter.start()
 
         if accs_lista == accs[3]:
             os.system("start " + accs_lista)
-            import main
-            main.starter.start()
 
         if accs_lista == accs[4]:
             os.system("start " + accs_lista)
-            import main
-            main.starter.start()
 
         if accs_lista == accs[5]:
             os.system("start " + accs_lista)
-            import main
-            main.starter.start()
 
         if accs_lista == accs[6]:
             os.system("start " + accs_lista)
-            import main
-            main.starter.start()
 
         if accs_lista == accs[7]:
             os.system("start " + accs_lista)
-            import main
-            main.starter.start()
 
-    def app():
-        # Settings page	URI
-        # Apps & Features	ms-settings:appsfeatures
-        # App features	ms-settings:appsfeatures-app (Reset, manage add-on & downloadable content, etc. for the app)
-        # Apps for websites	ms-settings:appsforwebsites
-        # Default apps	ms-settings:defaultapps
-        # Manage optional features	ms-settings:optionalfeatures
-        # Offline Maps	ms-settings:maps
-        # Startup apps	ms-settings:startupapps0
-        # Video playback	ms-settings:videoplayback
-
+    def app(self):
         apps = [
             "ms-settings:appsfeatures",
             "ms-settings:appsforwebsites",
@@ -92,38 +64,21 @@ class winmod():
 
         if app_lista == apps[0]:
             os.system("start " + app_lista)
-            import main
-            main.starter.start()
 
         if app_lista == apps[1]:
             os.system("start " + app_lista)
-            import main
-            main.starter.start()
 
         if app_lista == apps[2]:
             os.system("start " + app_lista)
-            import main
-            main.starter.start()
 
         if app_lista == apps[3]:
             os.system("start " + app_lista)
-            import main
-            main.starter.start()
 
         if app_lista == apps[4]:
             os.system("start " + app_lista)
-            import main
-            main.starter.start()
 
         if app_lista == apps[5]:
             os.system("start " + app_lista)
-            import main
-            main.starter.start()
 
         if app_lista == apps[6]:
             os.system("start " + app_lista)
-            import main
-            main.starter.start()
-#é
-#ó
-#á
