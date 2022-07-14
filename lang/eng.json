@@ -32,7 +32,7 @@
         "[20]: Exit"
     ],
 
-    "acc": [
+    "access": [
         "[ 0]: Access work or school",
         "[ 1]: Email & app accounts",
         "[ 2]: Family & other people",
@@ -47,10 +47,110 @@
         "[ 0]: Apps & Features",
         "[ 1]: Apps for websites",
         "[ 2]: Default apps",
-        "[ 3]: Manage optional features",
+        "[ 3]: Manage optional featucres",
         "[ 4]: Offline Maps",
         "[ 5]: Startup apps",
         "[ 6]: Video playback"
-    ]
+    ],
+
+    "cortana": [
+        "[ 0]: Cortana across my devices",
+        "[ 1]: More details",
+        "[ 2]: Permissions & History",
+        "[ 3]: Searching Windows",
+        "[ 4]: Talk to Cortana"
+    ],
+
+    "devices": [
+        "[ 0]: AutoPlay",
+        "[ 1]: Bluetooth",
+        "[ 2]: Camera settings",
+        "[ 3]: Mouse & touchpad",
+        "[ 4]: Pen & Windows Ink",
+        "[ 5]: Printers & scanners",
+        "[ 6]: Touchpad",
+        "[ 7]: Text Suggestions",
+        "[ 8]: USB",
+        "[ 9]: Your phone"
+    ],
+
+    "ease": [
+        "[ 0]: Audio",
+        "[ 1]: Closed captions",
+        "[ 2]: Color filters",
+        "[ 3]: Default camera",
+        "[ 4]: Display",
+        "[ 5]: Eye control",
+        "[ 6]: Fonts",
+        "[ 7]: High contrast",
+        "[ 8]: Keyboard",
+        "[ 9]: Magnifier",
+        "[10]: Mouse",
+        "[11]: Mouse pointer & touch",
+        "[12]: Narrator",
+        "[13]: Speech",
+        "[14]: Text cursor",
+        "[15]: Visual Effects"
+    ],
+
+    "extras": [
+        "[ 0]: Extras"
+
+    ],
+    "gaming": [
+        "[ 0]: Game bar",
+        "[ 1]: Game DVR",
+        "[ 2]: Game Mode",
+        "[ 3]: Playing a game full screen",
+        "[ 4]: TruePlay"
+    ],
+
+    "home": [
+        "[ 0]: Default browser",
+        "[ 1]: Audio and speech",
+        "[ 2]: Environment",
+        "[ 3]: Headset display",
+        "[ 4]: Uninstall",
+        "[ 5]: Startup and desktop"
+    ],
+
+    "network": [
+        "[00]: Advanced settings",
+        "[01]: Airplane mode",
+        "[02]: Cellular & SIM",
+        "[03]: Dial-up",
+        "[04]: DirectAccess",
+        "[05]: Ethernet",
+        "[06]: Manage known networks",
+        "[07]: Mobile hotspot",
+        "[08]: Proxy",
+        "[09]: VPN",
+        "[10]: Wi-Fi",
+        "[11]: Wi-Fi provisioning"
+    ],
+
+    "personalization": [
+        "[00]: Background",
+        "[01]: Choose which folders appear on Start",
+        "[02]: Colors",
+        "[03]: Glance",
+        "[04]: Lock screen",
+        "[05]: Navigation bar",
+        "[06]: Personalization",
+        "[07]: Start",
+        "[08]: Taskbar",
+        "[09]: Touch Keyboard",
+        "[10]: Themes"
+    ],
+
+    "phone": [],
+    "privacy": [],
+    "surface": [],
+    "system": [],
+    "update": [],
+    "user": [],
+    "control": [],
+    "family": [],
+    "search": []
 }
 

@@ -20,7 +20,7 @@
        * [06]: Startup apps
        * [07]: Video playback
 
-* [   ]: Cortana Settings page
+* [ x ]: Cortana Settings page
 
        * [00]: Cortana across my devices
        * [01]: More details
@@ -28,7 +28,7 @@
        * [03]: Searching Windows
        * [04]: Talk to Cortana
 
-* [   ]: Devices Settings page
+* [ x ]: Devices Settings page
 
        * [00]: AutoPlay
        * [01]: Bluetooth

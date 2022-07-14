@@ -21,6 +21,27 @@ json.load(codecs.open(lang, 'r', 'utf-8-sig'))
 with open(lang, encoding='utf-8-sig') as f:
     langs = json.load(f)
 
+# language def
+
 lang = langs['main_list']
-acc = langs['acc']
-app = langs['apps']
+access = langs['access']
+apps = langs['apps']
+cortana = langs['cortana']
+devices = langs['devices']
+ease = langs['ease']
+extras = langs['extras']
+gaming = langs['gaming']
+home = langs['home']
+network = langs['network']
+personalization = langs['personalization']
+phone = langs['phone']
+privacy = langs['privacy']
+surface = langs['surface']
+system = langs['system']
+update = langs['update']
+user = langs['user']
+control = langs['control']
+family = langs['family']
+search = langs['search']
+
+
