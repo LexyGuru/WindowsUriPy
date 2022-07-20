@@ -11,6 +11,6 @@ class logos:
         logocolorf = fg(200, 100, 30) + '  \ \((_)/ /(_)_(_/(  _| |((__(()((_((_| | | |((_(_| _ \ \ / /   ' + fg.rs
         logocolorg = fg(200, 110, 20) + '   \ \/\/ / | |   \)/ _` / _ \ V  V (_-| |_| |  _| |  _/\ V /    ' + fg.rs
         logocolorh = fg(200, 120, 10) + '    \_/\_/  |_|_||_|\__,_\___/\_/\_//__/\___/|_| |_|_|   |_|     ' + fg.rs
-        logocolori = fg(200, 130, 0) + '                                                                 ' + fg.rs
+        logocolori = fg(200, 130, 0) + '                        Apps by LexyGuru                          ' + fg.rs
 
-        print(logocolora + "\n" + logocolorb + "\n" + logocolorc + "\n" + logocolord + "\n" + logocolore + "\n" + logocolorf + "\n" + logocolorg + "\n" + logocolorh + "\n" + logocolori)
+        print(logocolora + "\n" + logocolorb + "\n" + logocolorc + "\n" + logocolord + "\n" + logocolore + "\n" + logocolorf + "\n" + logocolorg + "\n" + logocolorh + "\n" + logocolori + "\n")
