@@ -101,3 +101,20 @@ def gaming_list_color():
     print(fg(0, 255, 230) + ef.italic + lang.gaming[2], sep="\n" + rs.italic + fg.rs)
     print(fg(0, 255, 220) + ef.italic + lang.gaming[3], sep="\n" + rs.italic + fg.rs)
     print(fg(0, 255, 210) + ef.italic + lang.gaming[4], sep="\n" + rs.italic + fg.rs)
+
+
+def home_list_color():
+    print(fg(0, 255, 250) + ef.italic + lang.home[0], sep='\n' + rs.italic + fg.rs)
+    print(fg(0, 255, 240) + ef.italic + lang.home[1], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 230) + ef.italic + lang.home[2], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 220) + ef.italic + lang.home[3], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 210) + ef.italic + lang.home[4], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 200) + ef.italic + lang.home[5], sep="\n" + rs.italic + fg.rs)
+
+
+def network_list_color():
+    print("")
+
+
+def percona_list_color():
+    print("")

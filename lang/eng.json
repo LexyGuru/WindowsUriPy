@@ -6,7 +6,8 @@
         "GO",
         "Cancel",
         "Exit",
-        "Enter a Number:"
+        "Enter a Number:",
+        "These settings are only available if the Mixed Reality Portal app is installed."
     ],
     "main_list":[
         "[ 0]: Accounts Settings page",

@@ -6,7 +6,7 @@ from logo import *
 import color_list
 
 
-def main():
+def main() -> object:
     os.system('cls')
     logos.main_logo()
     print(fg(255, 255, 0) + ef.italic + lang.langs['main'][0] + rs.italic + fg.rs)
@@ -45,7 +45,7 @@ def main():
 
     if main_lista == lista[0]:
         os.system('cls')
-        modul.win_mods.accs()
+        modul.win_mods.acs()
         main()
 
     if main_lista == lista[1]:
@@ -79,7 +79,8 @@ def main():
         main()
 
     if main_lista == lista[7]:
-        print("7")
+        os.system('cls')
+        modul.win_mods.home()
         main()
 
     if main_lista == lista[8]:

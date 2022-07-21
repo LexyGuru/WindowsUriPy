@@ -6,7 +6,8 @@
         "Mehet",
         "Mégse",
         "Kilépés",
-        "Adjon meg egy számot:"
+        "Adjon meg egy számot:",
+        "Ezek a beállítások csak akkor érhetők el, Ha a Mixed Reality Portal alkalmazás telepítve van."
     ],
 
     "main_list":[
@@ -109,7 +110,7 @@
     ],
 
     "home": [
-        "[ 0]: Default browser",
+        "[ 0]: Ajánlott böngészőbeállítások",
         "[ 1]: Audio and speech",
         "[ 2]: Environment",
         "[ 3]: Headset display",

@@ -24,5 +24,4 @@ class logos:
         logo_color_h = fg(200, 120, 10) + "    \_/\_/  |_|_||_|\__,_\___/\_/\_//__/\___/|_| |_|_|   |_|     " + fg.rs
         logo_color_i = fg(200, 130, 0) + "                        Apps by LexyGuru                          " + fg.rs
 
-        print(
-            logo_color_a + "\n" + logo_color_b + "\n" + logo_color_c + "\n" + logo_color_d + "\n" + logo_color_e + "\n" + logo_color_f + "\n" + logo_color_g + "\n" + logo_color_h + "\n" + logo_color_i + "\n")
+        print("\n" + logo_color_a + "\n" + logo_color_b + "\n" + logo_color_c + "\n" + logo_color_d + "\n" + logo_color_e + "\n" + logo_color_f + "\n" + logo_color_g + "\n" + logo_color_h + "\n" + logo_color_i + "\n")

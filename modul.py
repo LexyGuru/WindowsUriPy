@@ -1,12 +1,17 @@
 import os
 import color_list
 import lang
+from sty import ef, rs
+from logo import *
 
 
 class win_mods:
 
     @staticmethod
-    def accs():
+    def acs():
+        os.system('cls')
+        logos.main_logo()
+        print(fg(255, 255, 0) + ef.italic + lang.langs['main'][0] + rs.italic + fg.rs)
         access = [
             "ms-settings:workplace",
             "ms-settings:emailandaccounts",
@@ -24,7 +29,8 @@ class win_mods:
 
         print("\n")
 
-        access_lista = access[int(input("" + lang.langs['main'][6]))]
+        access_lista = access[int(input(fg(255, 20, 147) + "" + lang.langs['main'][6] + fg.rs))]
+        # access[int(input("" + lang.langs['main'][6]))]
 
         if access_lista == access[0]:
             os.system("start " + access_lista)
@@ -52,6 +58,9 @@ class win_mods:
 
     @staticmethod
     def app():
+        os.system('cls')
+        logos.main_logo()
+        print(fg(255, 255, 0) + ef.italic + lang.langs['main'][0] + rs.italic + fg.rs)
         apps = [
             "ms-settings:appsfeatures",
             "ms-settings:appsforwebsites",
@@ -67,7 +76,7 @@ class win_mods:
         color_list.color_von()
         print("\n")
 
-        app_lista = apps[int(input("" + lang.langs['main'][6]))]
+        app_lista = apps[int(input(fg(255, 20, 147) + "" + lang.langs['main'][6] + fg.rs))]
 
         if app_lista == apps[0]:
             os.system("start " + app_lista)
@@ -92,6 +101,9 @@ class win_mods:
 
     @staticmethod
     def cort():
+        os.system('cls')
+        logos.main_logo()
+        print(fg(255, 255, 0) + ef.italic + lang.langs['main'][0] + rs.italic + fg.rs)
         cortana = [
             "ms-settings:cortana-notifications",
             "ms-settings:cortana-moredetails",
@@ -105,7 +117,7 @@ class win_mods:
         color_list.color_von()
         print("\n")
 
-        cortana_lista = cortana[int(input("" + lang.langs['main'][6]))]
+        cortana_lista = cortana[int(input(fg(255, 20, 147) + "" + lang.langs['main'][6] + fg.rs))]
 
         if cortana_lista == cortana[0]:
             os.system("start " + cortana_lista)
@@ -124,6 +136,9 @@ class win_mods:
 
     @staticmethod
     def devi():
+        os.system('cls')
+        logos.main_logo()
+        print(fg(255, 255, 0) + ef.italic + lang.langs['main'][0] + rs.italic + fg.rs)
         devices = [
             "ms-settings:autoplay",
             "ms-settings:bluetooth",
@@ -142,7 +157,7 @@ class win_mods:
         color_list.color_von()
         print("\n")
 
-        devices_lista = devices[int(input("" + lang.langs['main'][6]))]
+        devices_lista = devices[int(input(fg(255, 20, 147) + "" + lang.langs['main'][6] + fg.rs))]
 
         if devices_lista == devices[0]:
             os.system("start " + devices_lista)
@@ -176,6 +191,9 @@ class win_mods:
 
     @staticmethod
     def ease():
+        os.system('cls')
+        logos.main_logo()
+        print(fg(255, 255, 0) + ef.italic + lang.langs['main'][0] + rs.italic + fg.rs)
         easee = ["ms-settings:easeofaccess-audio",
                  "ms-settings:easeofaccess-closedcaptioning",
                  "ms-settings:easeofaccess-colorfilter",
@@ -198,7 +216,7 @@ class win_mods:
         color_list.color_von()
         print("\n")
 
-        easee_lista = easee[int(input("" + lang.langs['main'][6]))]
+        easee_lista = easee[int(input(fg(255, 20, 147) + "" + lang.langs['main'][6] + fg.rs))]
 
         if easee_lista == easee[0]:
             os.system("start " + easee_lista)
@@ -247,6 +265,9 @@ class win_mods:
 
     @staticmethod
     def extr():
+        os.system('cls')
+        logos.main_logo()
+        print(fg(255, 255, 0) + ef.italic + lang.langs['main'][0] + rs.italic + fg.rs)
         extras = [
             "ms-settings:extras"
         ]
@@ -256,13 +277,16 @@ class win_mods:
         color_list.color_von()
         print("\n")
 
-        extras_lista = extras[int(input("" + lang.langs['main'][6]))]
+        extras_lista = extras[int(input(fg(255, 20, 147) + "" + lang.langs['main'][6] + fg.rs))]
 
         if extras_lista == extras[0]:
             os.system("start " + extras_lista)
 
     @staticmethod
     def game():
+        os.system('cls')
+        logos.main_logo()
+        print(fg(255, 255, 0) + ef.italic + lang.langs['main'][0] + rs.italic + fg.rs)
         games = [
             "ms-settings:gaming-gamebar",
             "ms-settings:gaming-gamedvr",
@@ -275,7 +299,7 @@ class win_mods:
         color_list.gaming_list_color()
         color_list.color_von()
 
-        games_lista = games[int(input("" + lang.langs['main'][6]))]
+        games_lista = games[int(input(fg(255, 20, 147) + "" + lang.langs['main'][6] + fg.rs))]
 
         if games_lista == games[0]:
             os.system("start " + games_lista)
@@ -291,3 +315,44 @@ class win_mods:
 
         if games_lista == games[4]:
             os.system("start " + games_lista)
+
+    @staticmethod
+    def home():
+        os.system('cls')
+        logos.main_logo()
+        print(fg(255, 255, 0) + ef.italic + lang.langs['main'][0] + rs.italic + fg.rs)
+        home = [
+            "ms-settings:defaultbrowsersettings",
+            "ms-settings:holographic-audio",
+            "ms-settings:privacy-holographic-environment",
+            "ms-settings:holographic-headset",
+            "ms-settings:holographic-management",
+            "ms-settings:holographic-startupandesktop"
+        ]
+
+        color_list.color_von()
+        print(fg(255, 20, 147) + "" + lang.langs['main'][7] + fg.rs)
+        color_list.color_von()
+        color_list.home_list_color()
+        color_list.color_von()
+        print("\n")
+
+        home_lista = home[int(input(fg(255, 20, 147) + "" + lang.langs['main'][6] + fg.rs))]
+
+        if home_lista == home[0]:
+            os.system("start " + home_lista)
+
+        if home_lista == home[1]:
+            os.system("start " + home_lista)
+
+        if home_lista == home[2]:
+            os.system("start " + home_lista)
+
+        if home_lista == home[3]:
+            os.system("start " + home_lista)
+
+        if home_lista == home[4]:
+            os.system("start " + home_lista)
+
+        if home_lista == home[5]:
+            os.system("start " + home_lista)
