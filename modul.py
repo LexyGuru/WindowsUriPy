@@ -4,8 +4,10 @@ import lang
 
 
 class win_mods:
-    def accs(self):
-        accsess = [
+
+    @staticmethod
+    def accs():
+        access = [
             "ms-settings:workplace",
             "ms-settings:emailandaccounts",
             "ms-settings:otherusers",
@@ -22,33 +24,34 @@ class win_mods:
 
         print("\n")
 
-        accsess_lista = accsess[int(input("" + lang.langs['main'][6]))]
+        access_lista = access[int(input("" + lang.langs['main'][6]))]
 
-        if accsess_lista == accsess[0]:
-            os.system("start " + accsess_lista)
+        if access_lista == access[0]:
+            os.system("start " + access_lista)
 
-        if accsess_lista == accsess[1]:
-            os.system("start " + accsess_lista)
+        if access_lista == access[1]:
+            os.system("start " + access_lista)
 
-        if accsess_lista == accsess[2]:
-            os.system("start " + accsess_lista)
+        if access_lista == access[2]:
+            os.system("start " + access_lista)
 
-        if accsess_lista == accsess[3]:
-            os.system("start " + accsess_lista)
+        if access_lista == access[3]:
+            os.system("start " + access_lista)
 
-        if accsess_lista == accsess[4]:
-            os.system("start " + accsess_lista)
+        if access_lista == access[4]:
+            os.system("start " + access_lista)
 
-        if accsess_lista == accsess[5]:
-            os.system("start " + accsess_lista)
+        if access_lista == access[5]:
+            os.system("start " + access_lista)
 
-        if accsess_lista == accsess[6]:
-            os.system("start " + accsess_lista)
+        if access_lista == access[6]:
+            os.system("start " + access_lista)
 
-        if accsess_lista == accsess[7]:
-            os.system("start " + accsess_lista)
+        if access_lista == access[7]:
+            os.system("start " + access_lista)
 
-    def app(self):
+    @staticmethod
+    def app():
         apps = [
             "ms-settings:appsfeatures",
             "ms-settings:appsforwebsites",
@@ -87,7 +90,8 @@ class win_mods:
         if app_lista == apps[6]:
             os.system("start " + app_lista)
 
-    def cort(self):
+    @staticmethod
+    def cort():
         cortana = [
             "ms-settings:cortana-notifications",
             "ms-settings:cortana-moredetails",
@@ -118,7 +122,8 @@ class win_mods:
         if cortana_lista == cortana[4]:
             os.system("start " + cortana_lista)
 
-    def devi(self):
+    @staticmethod
+    def devi():
         devices = [
             "ms-settings:autoplay",
             "ms-settings:bluetooth",
@@ -169,7 +174,8 @@ class win_mods:
         if devices_lista == devices[9]:
             os.system("start " + devices_lista)
 
-    def ease(self):
+    @staticmethod
+    def ease():
         easee = ["ms-settings:easeofaccess-audio",
                  "ms-settings:easeofaccess-closedcaptioning",
                  "ms-settings:easeofaccess-colorfilter",
@@ -239,7 +245,8 @@ class win_mods:
         if easee_lista == easee[14]:
             os.system("start " + easee_lista)
 
-    def extr(self):
+    @staticmethod
+    def extr():
         extras = [
             "ms-settings:extras"
         ]
@@ -254,7 +261,8 @@ class win_mods:
         if extras_lista == extras[0]:
             os.system("start " + extras_lista)
 
-    def game(self):
+    @staticmethod
+    def game():
         games = [
             "ms-settings:gaming-gamebar",
             "ms-settings:gaming-gamedvr",
@@ -283,4 +291,3 @@ class win_mods:
 
         if games_lista == games[4]:
             os.system("start " + games_lista)
-

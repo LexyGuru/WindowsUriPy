@@ -8,7 +8,7 @@ import color_list
 
 def main():
     os.system('cls')
-    logos.main_logo('self')
+    logos.main_logo()
     print(fg(255, 255, 0) + ef.italic + lang.langs['main'][0] + rs.italic + fg.rs)
     """
 
@@ -45,37 +45,37 @@ def main():
 
     if main_lista == lista[0]:
         os.system('cls')
-        modul.win_mods.accs('self')
+        modul.win_mods.accs()
         main()
 
     if main_lista == lista[1]:
         os.system('cls')
-        modul.win_mods.app('self')
+        modul.win_mods.app()
         main()
 
     if main_lista == lista[2]:
         os.system('cls')
-        modul.win_mods.cort('self')
+        modul.win_mods.cort()
         main()
 
     if main_lista == lista[3]:
         os.system('cls')
-        modul.win_mods.devi('self')
+        modul.win_mods.devi()
         main()
 
     if main_lista == lista[4]:
         os.system('cls')
-        modul.win_mods.ease('self')
+        modul.win_mods.ease()
         main()
 
     if main_lista == lista[5]:
         os.system('cls')
-        modul.win_mods.extr('self')
+        modul.win_mods.extr()
         main()
 
     if main_lista == lista[6]:
         os.system('cls')
-        modul.win_mods.game('self')
+        modul.win_mods.game()
         main()
 
     if main_lista == lista[7]:
@@ -131,7 +131,7 @@ def main():
 
     if main_lista == lista[20]:
         os.system('cls')
-        logos.main_logo('self')
+        logos.main_logo()
         yn = input(lang.langs['main'][5] + ' (yes/no): ')
         if yn == 'yes':
             exit()
