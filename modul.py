@@ -4,8 +4,8 @@ import lang
 
 
 class win_mods:
-    def accs():
-        accs = [
+    def accs(self):
+        accsess = [
             "ms-settings:workplace",
             "ms-settings:emailandaccounts",
             "ms-settings:otherusers",
@@ -22,33 +22,33 @@ class win_mods:
 
         print("\n")
 
-        accs_lista = accs[int(input("" + lang.langs['main'][6]))]
+        accsess_lista = accsess[int(input("" + lang.langs['main'][6]))]
 
-        if accs_lista == accs[0]:
-            os.system("start " + accs_lista)
+        if accsess_lista == accsess[0]:
+            os.system("start " + accsess_lista)
 
-        if accs_lista == accs[1]:
-            os.system("start " + accs_lista)
+        if accsess_lista == accsess[1]:
+            os.system("start " + accsess_lista)
 
-        if accs_lista == accs[2]:
-            os.system("start " + accs_lista)
+        if accsess_lista == accsess[2]:
+            os.system("start " + accsess_lista)
 
-        if accs_lista == accs[3]:
-            os.system("start " + accs_lista)
+        if accsess_lista == accsess[3]:
+            os.system("start " + accsess_lista)
 
-        if accs_lista == accs[4]:
-            os.system("start " + accs_lista)
+        if accsess_lista == accsess[4]:
+            os.system("start " + accsess_lista)
 
-        if accs_lista == accs[5]:
-            os.system("start " + accs_lista)
+        if accsess_lista == accsess[5]:
+            os.system("start " + accsess_lista)
 
-        if accs_lista == accs[6]:
-            os.system("start " + accs_lista)
+        if accsess_lista == accsess[6]:
+            os.system("start " + accsess_lista)
 
-        if accs_lista == accs[7]:
-            os.system("start " + accs_lista)
+        if accsess_lista == accsess[7]:
+            os.system("start " + accsess_lista)
 
-    def app():
+    def app(self):
         apps = [
             "ms-settings:appsfeatures",
             "ms-settings:appsforwebsites",
@@ -87,7 +87,7 @@ class win_mods:
         if app_lista == apps[6]:
             os.system("start " + app_lista)
 
-    def cort():
+    def cort(self):
         cortana = [
             "ms-settings:cortana-notifications",
             "ms-settings:cortana-moredetails",
@@ -118,7 +118,7 @@ class win_mods:
         if cortana_lista == cortana[4]:
             os.system("start " + cortana_lista)
 
-    def devi():
+    def devi(self):
         devices = [
             "ms-settings:autoplay",
             "ms-settings:bluetooth",
@@ -169,7 +169,7 @@ class win_mods:
         if devices_lista == devices[9]:
             os.system("start " + devices_lista)
 
-    def ease():
+    def ease(self):
         easee = ["ms-settings:easeofaccess-audio",
                  "ms-settings:easeofaccess-closedcaptioning",
                  "ms-settings:easeofaccess-colorfilter",
@@ -185,7 +185,7 @@ class win_mods:
                  "ms-settings:easeofaccess-speechrecognition",
                  "ms-settings:easeofaccess-cursor",
                  "ms-settings:easeofaccess-visualeffects"
-            ]
+                 ]
 
         color_list.color_von()
         color_list.easee_list_color()
@@ -239,4 +239,48 @@ class win_mods:
         if easee_lista == easee[14]:
             os.system("start " + easee_lista)
 
+    def extr(self):
+        extras = [
+            "ms-settings:extras"
+        ]
+
+        color_list.color_von()
+        color_list.extras_list_color()
+        color_list.color_von()
+        print("\n")
+
+        extras_lista = extras[int(input("" + lang.langs['main'][6]))]
+
+        if extras_lista == extras[0]:
+            os.system("start " + extras_lista)
+
+    def game(self):
+        games = [
+            "ms-settings:gaming-gamebar",
+            "ms-settings:gaming-gamedvr",
+            "ms-settings:gaming-gamemode",
+            "ms-settings:quietmomentsgame",
+            "ms-settings:gaming-trueplay"
+        ]
+
+        color_list.color_von()
+        color_list.gaming_list_color()
+        color_list.color_von()
+
+        games_lista = games[int(input("" + lang.langs['main'][6]))]
+
+        if games_lista == games[0]:
+            os.system("start " + games_lista)
+
+        if games_lista == games[1]:
+            os.system("start " + games_lista)
+
+        if games_lista == games[2]:
+            os.system("start " + games_lista)
+
+        if games_lista == games[3]:
+            os.system("start " + games_lista)
+
+        if games_lista == games[4]:
+            os.system("start " + games_lista)
 

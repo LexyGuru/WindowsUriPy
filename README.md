@@ -46,7 +46,7 @@
        * [13]: Wheel
        * [14]: Your phone
 
-* [   ]: Ease of access Settings page
+* [ x ]: Ease of access Settings page
 
        * [00]: Audio
        * [01]: Closed captions
@@ -65,11 +65,11 @@
        * [14]: Text cursor
        * [15]: Visual Effects
 
-* [   ]: Extras Settings page
+* [ x ]: Extras Settings page
 
        * [00]: Extras
 
-* [   ]: Gaming Settings page
+* [ x ]: Gaming Settings page
 
        * [00]: Game bar
        * [01]: Game DVR

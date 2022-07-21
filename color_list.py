@@ -1,4 +1,4 @@
-from sty import fg, bg, ef, rs
+from sty import fg, ef, rs
 import lang
 
 
@@ -7,24 +7,25 @@ def color_von():
 
 
 def menu_list_color():
-    print(fg(0, 255, 250) + ef.italic + lang.lang[1], sep='\n' + rs.italic + fg.rs)
-    print(fg(0, 255, 240) + ef.italic + lang.lang[2], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 230) + ef.italic + lang.lang[3], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 220) + ef.italic + lang.lang[4], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 210) + ef.italic + lang.lang[5], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 200) + ef.italic + lang.lang[6], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 190) + ef.italic + lang.lang[7], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 180) + ef.italic + lang.lang[8], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 170) + ef.italic + lang.lang[9], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 160) + ef.italic + lang.lang[10], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 150) + ef.italic + lang.lang[11], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 140) + ef.italic + lang.lang[12], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 130) + ef.italic + lang.lang[13], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 120) + ef.italic + lang.lang[14], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 110) + ef.italic + lang.lang[15], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 90) + ef.italic + lang.lang[16], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 80) + ef.italic + lang.lang[17], sep="\n" + rs.italic + fg.rs)
-    print(fg(0, 255, 70) + ef.italic + lang.lang[18], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 250) + ef.italic + lang.lang[0], sep='\n' + rs.italic + fg.rs)
+    print(fg(0, 255, 240) + ef.italic + lang.lang[1], sep='\n' + rs.italic + fg.rs)
+    print(fg(0, 255, 230) + ef.italic + lang.lang[2], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 220) + ef.italic + lang.lang[3], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 210) + ef.italic + lang.lang[4], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 200) + ef.italic + lang.lang[5], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 190) + ef.italic + lang.lang[6], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 180) + ef.italic + lang.lang[7], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 170) + ef.italic + lang.lang[8], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 160) + ef.italic + lang.lang[9], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 150) + ef.italic + lang.lang[10], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 140) + ef.italic + lang.lang[11], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 130) + ef.italic + lang.lang[12], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 120) + ef.italic + lang.lang[13], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 110) + ef.italic + lang.lang[14], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 90) + ef.italic + lang.lang[15], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 80) + ef.italic + lang.lang[16], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 70) + ef.italic + lang.lang[17], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 60) + ef.italic + lang.lang[18], sep="\n" + rs.italic + fg.rs)
     print(fg(255, 20, 147) + ef.italic + lang.lang[19], sep="\n" + rs.italic + fg.rs)
     print(fg(0, 255, 50) + ef.italic + lang.lang[20], sep="\n" + rs.italic + fg.rs)
 
@@ -91,10 +92,12 @@ def easee_list_color():
 
 
 def extras_list_color():
-    print("")
+    print(fg(0, 255, 250) + ef.italic + lang.extras[0], sep='\n' + rs.italic + fg.rs)
 
 
 def gaming_list_color():
-    print("")
-
-
+    print(fg(0, 255, 250) + ef.italic + lang.gaming[0], sep='\n' + rs.italic + fg.rs)
+    print(fg(0, 255, 240) + ef.italic + lang.gaming[1], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 230) + ef.italic + lang.gaming[2], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 220) + ef.italic + lang.gaming[3], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 210) + ef.italic + lang.gaming[4], sep="\n" + rs.italic + fg.rs)

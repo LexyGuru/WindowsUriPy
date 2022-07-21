@@ -79,22 +79,21 @@
     ],
 
    "ease": [
-        "[ 0]: Audio",
-        "[ 1]: Closed captions",
-        "[ 2]: Color filters",
-        "[ 3]: Default camera",
-        "[ 4]: Display",
-        "[ 5]: Eye control",
-        "[ 6]: Fonts",
-        "[ 7]: High contrast",
-        "[ 8]: Keyboard",
-        "[ 9]: Magnifier",
-        "[10]: Mouse",
-        "[11]: Mouse pointer & touch",
-        "[12]: Narrator",
-        "[13]: Speech",
-        "[14]: Text cursor",
-        "[15]: Visual Effects"
+        "[ 0]: Hang",
+        "[ 1]: Feliraztozás",
+        "[ 2]: Színszűrők",
+        "[ 3]: Kijelyő",
+        "[ 4]: Szemveyérlés",
+        "[ 5]: Betűtípusok",
+        "[ 6]: Kontrasztos megjelenés",
+        "[ 7]: Billentyűyet",
+        "[ 8]: Nagyító",
+        "[ 9]: Egér",
+        "[10]: Egérmutató",
+        "[11]: Narrátor",
+        "[12]: Beszédfelismerés",
+        "[13]: Szövegkurzor",
+        "[14]: Visual Effects"
     ],
 
     "extras": [
@@ -102,10 +101,10 @@
 
     ],
     "gaming": [
-        "[ 0]: Game bar",
-        "[ 1]: Game DVR",
-        "[ 2]: Game Mode",
-        "[ 3]: Playing a game full screen",
+        "[ 0]: Xbox Game bar",
+        "[ 1]: Képernyiőképek",
+        "[ 2]: Játék üzemmód",
+        "[ 3]: Játék teljes képenyős módban",
         "[ 4]: TruePlay"
     ],
 

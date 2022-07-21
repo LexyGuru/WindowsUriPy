@@ -1,6 +1,7 @@
 import modul
 from modul import *
 import os
+from sty import ef, rs
 from logo import *
 import color_list
 
@@ -44,35 +45,37 @@ def main():
 
     if main_lista == lista[0]:
         os.system('cls')
-        modul.win_mods.accs()
+        modul.win_mods.accs('self')
         main()
 
     if main_lista == lista[1]:
         os.system('cls')
-        modul.win_mods.app()
+        modul.win_mods.app('self')
         main()
 
     if main_lista == lista[2]:
         os.system('cls')
-        modul.win_mods.cort()
+        modul.win_mods.cort('self')
         main()
 
     if main_lista == lista[3]:
         os.system('cls')
-        modul.win_mods.devi()
+        modul.win_mods.devi('self')
         main()
 
     if main_lista == lista[4]:
         os.system('cls')
-        modul.win_mods.ease()
+        modul.win_mods.ease('self')
         main()
 
     if main_lista == lista[5]:
-        print("5")
+        os.system('cls')
+        modul.win_mods.extr('self')
         main()
 
     if main_lista == lista[6]:
-        print("6")
+        os.system('cls')
+        modul.win_mods.game('self')
         main()
 
     if main_lista == lista[7]:
