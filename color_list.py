@@ -113,8 +113,30 @@ def home_list_color():
 
 
 def network_list_color():
-    print("")
+    print(fg(0, 255, 250) + ef.italic + lang.network[0], sep='\n' + rs.italic + fg.rs)
+    print(fg(0, 255, 240) + ef.italic + lang.network[1], sep='\n' + rs.italic + fg.rs)
+    print(fg(0, 255, 230) + ef.italic + lang.network[2], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 220) + ef.italic + lang.network[3], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 210) + ef.italic + lang.network[4], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 200) + ef.italic + lang.network[5], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 190) + ef.italic + lang.network[6], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 180) + ef.italic + lang.network[7], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 170) + ef.italic + lang.network[8], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 160) + ef.italic + lang.network[9], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 150) + ef.italic + lang.network[10], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 140) + ef.italic + lang.network[11], sep="\n" + rs.italic + fg.rs)
 
 
-def percona_list_color():
-    print("")
+def persona_list_color():
+    print(fg(0, 255, 250) + ef.italic + lang.personalization[0], sep='\n' + rs.italic + fg.rs)
+    print(fg(0, 255, 240) + ef.italic + lang.personalization[1], sep='\n' + rs.italic + fg.rs)
+    print(fg(0, 255, 230) + ef.italic + lang.personalization[2], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 220) + ef.italic + lang.personalization[3], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 210) + ef.italic + lang.personalization[4], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 200) + ef.italic + lang.personalization[5], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 190) + ef.italic + lang.personalization[6], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 180) + ef.italic + lang.personalization[7], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 170) + ef.italic + lang.personalization[8], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 160) + ef.italic + lang.personalization[9], sep="\n" + rs.italic + fg.rs)
+    print(fg(0, 255, 150) + ef.italic + lang.personalization[10], sep="\n" + rs.italic + fg.rs)
+

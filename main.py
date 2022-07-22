@@ -84,11 +84,13 @@ def main() -> object:
         main()
 
     if main_lista == lista[8]:
-        print("8")
+        os.system('cls')
+        modul.win_mods.net()
         main()
 
     if main_lista == lista[9]:
-        print("9")
+        os.system('cls')
+        modul.win_mods.pers()
         main()
 
     if main_lista == lista[10]:
